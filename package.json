@@ -35,9 +35,6 @@
   "devDependencies": {
     "javascript-obfuscator": "^4.2.2"
   },
-  "optionalDependencies": {
-    "canvas": "2.9.3"
-  },
   "engines": {
     "node": ">=20.0.0 <25.0.0"
   },
