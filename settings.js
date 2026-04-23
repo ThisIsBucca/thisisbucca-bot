@@ -5,4 +5,5 @@ module.exports = {
   version: "5.2.1",
   commandMode: "public",
   maxStoreMessages: 200,
-  storeWriteInter
+  storeWriteInterval: 10000
+};
