@@ -1,3 +1,18 @@
 {
-  
+  "ttt-1777030013335": {
+    "id": "ttt-1777030013335",
+    "chatId": "255776986840@s.whatsapp.net",
+    "x": "255776986840@s.whatsapp.net",
+    "o": "",
+    "state": "WAITING",
+    "roomName": null,
+    "game": {
+      "playerX": "255776986840@s.whatsapp.net",
+      "playerO": null,
+      "_currentTurn": false,
+      "_x": 0,
+      "_o": 0,
+      "turns": 0
+    }
+  }
 }
