@@ -44,9 +44,9 @@ function getTimeOfDay(timeStr) {
     const hour = parseInt(timeStr.split(":")[0], 10);
     if (hour >= 5  && hour < 12) return "🌅 Asubuhi";
     if (hour >= 12 && hour < 14) return "☀️ Adhuhuri";
-    if (hour >= 14 && hour < 17) return "🌤️ Mchana";
-    if (hour >= 17 && hour < 19) return "🌇 Jioni";
-    if (hour >= 19 && hour < 21) return "🌆 Usiku";
+    if (hour >= 14 && hour < 16) return "🌤️ Mchana";
+    if (hour >= 16 && hour < 19) return "🌇 Jioni";
+    if (hour >= 19 && hour < 23) return "🌆 Usiku";
     return "🌙 Usiku wa Manane";
 }
 
@@ -57,7 +57,7 @@ function formatTime12hr(timeStr) {
     const hour12 = hour % 12 === 0 ? 12 : hour % 12;
     const ampm   = hour >= 12 ? "Mchana/Jioni" : "Asubuhi";
 
-    return `${hour12}:${minute} ${ampm}`;
+    return `${hour12}:${minute}`;
 }
 
 function getStatus(dateStr) {
